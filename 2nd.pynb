@@ -1,0 +1,4 @@
+import pandas  
+df = pandas.read_csv(r'C:\Users\jishak\Desktop\dataset\googleplaystore.csv', usecols= ['App','Category'])
+df.head()
+print(df)
